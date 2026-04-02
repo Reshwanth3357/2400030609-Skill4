@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">  
+    
+    <bean id="studentConsBean" class="com.practice.SpringDI.Student">
+    	<constructor-arg value="2400030371" type="long"></constructor-arg>
+    	<constructor-arg value="Bhargav"></constructor-arg>
+    	<property name="courseName" value="Full-Stack"></property>
+    	<property name="acadamicYear" value="2024"></property>
+    </bean>
+    
+    
+    
+</beans>
